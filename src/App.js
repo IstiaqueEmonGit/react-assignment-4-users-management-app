@@ -4,9 +4,9 @@ import Users from './components/Users';
 const App = () => {
  const url = 'https://jsonplaceholder.typicode.com/users';
   // step1 : declare three states here : users, isLoading, error
-  const [users, setUsers]= useState()
-  const [isLoading, setIsloading]= useState(true)
-  const [error, setError] = useState('')
+  const [users, setUsers]= useState([]);
+  const [isLoading, setIsloading]= useState(true);
+  const [error, setError] = useState('');
 
   
 
